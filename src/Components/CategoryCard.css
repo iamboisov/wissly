@@ -2,7 +2,7 @@
 @import '../Typography.css';
 
 .categoryCard1 {
-    width: 350px;
+    max-width:345px;
     height: 300px;
     background-color: var(--main-primary-100);
     border-radius: 24px;
@@ -18,7 +18,7 @@
 }
 
 .categoryCard2 {
-    width: 350px;
+    max-width:345px;
     height: 300px;
     background-color: var(--main-secondary-100);
     border-radius: 24px;
@@ -36,7 +36,7 @@
 }
 
 .categoryCard3 {
-    width: 350px;
+    max-width:345px;
     height: 300px;
     background-color: var(--blue-100);
     border-radius: 24px;
@@ -53,7 +53,7 @@
 }
 
 .categoryCard4 {
-    width: 350px;
+    max-width:345px;
     height: 300px;
     background-color: var(--green-100);
     border-radius: 24px;
