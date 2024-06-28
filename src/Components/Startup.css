@@ -1,0 +1,28 @@
+.startup-card {
+    min-width: 712px;
+    max-width: 712px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 24px;
+    border-radius: 36px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
+    text-align: left;
+}
+
+.startup-text {
+    width: 60%;
+    max-width: 385px;
+    padding: 24px;
+}
+
+.startup-tags > p {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid var(--main-primary-100);
+    border-radius: 32px;
+    margin-right: 8px;
+}
+

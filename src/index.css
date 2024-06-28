@@ -3,4 +3,7 @@
 @import './Components/Footer';
 @import './Components/CategoryCard';
 @import './Components/ArticleCard';
+@import './Components/Startup';
 @import './Home';
+@import './Articles';
+@import './Startups';
