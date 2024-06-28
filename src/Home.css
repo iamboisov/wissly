@@ -3,7 +3,58 @@ body {
 }
 
 .divider {
-    margin-bottom: 200px;
+    margin-bottom: 120px;
     width: 100%;
     height: 10px;
 }
+
+.main-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-header-content {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-badge {
+    padding: 8px 16px;
+    border: 1px solid var(--blue-100);
+    border-radius: 64px;
+    color: var(--blue-100);
+}
+
+.main-header-content > h1 {
+    font-size: 96px;
+}
+
+.main-header-text {
+    max-width: 350px;
+    line-height: 1.5;
+    margin: 48px 0 60px;
+
+}
+
+.main-form-input {
+    width: 280px;
+    height: 24px;
+    padding: 12px;
+    border-radius: 8px;
+    margin-right: 12px;
+    border: 1px solid var(--gray-100)
+}
+
+.main-form-input:focus {
+    border: var(--main-primary-100);
+}
+
+
+
+
+
+
