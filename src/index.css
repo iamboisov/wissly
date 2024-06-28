@@ -1,5 +1,6 @@
 /* Import styles here */
 @import './Components/Navigation';
+@import './Components/Footer';
 @import './Components/CategoryCard';
 @import './Components/ArticleCard';
 @import './Home';

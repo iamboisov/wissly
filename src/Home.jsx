@@ -1,5 +1,5 @@
 import Navigation from './Components/Navigation'
-import ArticleCard from './Components/ArticleCard'
+import Footer from './Components/Footer'
 import Button from './Components/Button'
 import card_1_img from './assets/main-card-1-img.svg'
 import startup_card from './assets/wissly-startup.svg'
@@ -88,6 +88,8 @@ export default function Home() {
                 <img src={iphone_card} alt=""/>
             </div>
         </div>
+
+        <Footer />
         </>
     )
 }

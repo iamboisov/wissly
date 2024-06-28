@@ -1,11 +1,14 @@
 import Navigation from './Components/Navigation'
 import Button from './Components/Button'
 import CategoryCard from './Components/CategoryCard'
+import ArticleCard from './Components/ArticleCard'
+import Footer from './Components/Footer'
 import ipadCard from './assets/ipad.svg'
 import iphone_card from './assets/iphone1.svg'
+import startup_card2 from './assets/wissly-startup2.svg'
 
 export default function Articles() {
-    return (
+    return (    
         <>
         <Navigation />
 
@@ -58,6 +61,35 @@ export default function Articles() {
             </div>
         </div>
 
+
+        <div className="articleCards">
+        <ArticleCard title="Основы маркетинга" text="Фундаментальная часть перед углублением в тему" link="/article1"/>
+        <ArticleCard title="Основы маркетинга" text="Фундаментальная часть перед углублением в тему" link="/article1"/>
+        <ArticleCard title="Основы маркетинга" text="Фундаментальная часть перед углублением в тему" link="/article1"/>
+        <ArticleCard title="Основы маркетинга" text="Фундаментальная часть перед углублением в тему" link="/article1"/>
+        </div>
+
+
+
+        <div className="articles-last">
+            <div className="articles-last-img">
+                <img src={startup_card2} alt=""/>
+            </div>
+            <div className="articles-last-text">
+                <p>Стартапы</p>
+                <div className="articles-last-text-header">
+                    <h2>История и аналитика мировых стартапов</h2>
+                    <div className="articles-last-text-header-text">
+                        <p>Самая свежая и практическая информация для вас и вашего бизнеса. Читайте в любом месте и в любое время.</p>
+                        <Button title="Узнать больше" style="light"/>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <Footer />
         </>
     )
 }
