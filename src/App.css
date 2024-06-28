@@ -1,5 +1,8 @@
 @import './Colors';
 @import './Typography';
+@import './Home';
+@import './Articles';
+
 
 #root {
   max-width: 1440px;

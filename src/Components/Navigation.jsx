@@ -16,7 +16,7 @@ export default function Navigation() {
     }
 
     return <div className='Navbar'>
-    <div className='Logo' onMouseOver={handleMouseOver} onMouseLeave={handleMouserLeave}><img src={imageSrc} alt="" /></div>
+    <a className='Logo' href='/' onMouseOver={handleMouseOver} onMouseLeave={handleMouserLeave}><img src={imageSrc} alt="" /></a>
     <div className="Links">
         <a href="/articles">Статьи</a>
         <a href="/startups">Стартапы</a>
