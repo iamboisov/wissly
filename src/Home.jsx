@@ -3,6 +3,8 @@ import ArticleCard from './Components/ArticleCard'
 import Button from './Components/Button'
 import card_1_img from './assets/main-card-1-img.svg'
 import startup_card from './assets/wissly-startup.svg'
+import idea_card from './assets/ideas-cards.svg'
+import iphone_card from './assets/iphone1.svg'
 
 export default function Home() {
     return (
@@ -48,10 +50,44 @@ export default function Home() {
                 </div>
             </div>
             <div className="main-startups-img">
-                <img src={startup_card} alt="" srcset="" />
+                <img src={startup_card} alt=""/>
             </div>
         </div>
         
+
+
+        <div className="main-startups2">
+            <div className="main-startups2-text">
+                <p>Стартапы</p>
+                <div className="main-startups2-header">
+                    <h2>История и аналитика мировых стартапов</h2>
+                    <div className="startups-header2-text">
+                        <p>Самая свежая и практическая информация для вас и вашего бизнеса. Читайте в любом месте и в любое время.</p>
+                        <Button title="Узнать больше" style="dark"/>
+                    </div>
+                </div>
+            </div>
+            <div className="main-startups2-img">
+                <img src={idea_card} alt=""/>
+            </div>
+        </div>
+
+
+        <div className="main-startups3">
+            <div className="main-startups3-text">
+                <p>Стартапы</p>
+                <div className="main-startups3-header">
+                    <h2>История и аналитика мировых стартапов</h2>
+                    <div className="startups-header3-text">
+                        <p>Самая свежая и практическая информация для вас и вашего бизнеса. Читайте в любом месте и в любое время.</p>
+                        <Button title="Узнать больше" style="light"/>
+                    </div>
+                </div>
+            </div>
+            <div className="main-startups3-img">
+                <img src={iphone_card} alt=""/>
+            </div>
+        </div>
         </>
     )
 }
