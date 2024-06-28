@@ -2,8 +2,8 @@
 @import './Button.css';
 
 .Navbar {
-    position: sticky;
-    max-width: 1416px;
+    position: fixed;
+    width: 1416px;
     display: flex;
     align-items: center;
     justify-content: space-between;

@@ -1,2 +1,4 @@
 /* Import styles here */
 @import './Components/Navigation';
+@import './Components/CategoryCard';
+@import './Home';
