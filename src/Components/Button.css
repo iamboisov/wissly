@@ -1,6 +1,6 @@
 @import '../Colors.css';
 
-.NavButton {
+.NavButtonDark {
     background-color: var(--main-primary-100);
     color: white;
     padding: 16px 24px;
@@ -10,7 +10,22 @@
     font-size: 16px;
 }
 
-.NavButton:hover {
+.NavButtonDark:hover {
     background-color: var(--main-primary-80);
+    
+}
+
+.NavButtonLight {
+    background-color: var(--blue-10);
+    color: var(--main-primary-100);
+    padding: 16px 24px;
+    border-radius: 64px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.NavButtonLight:hover {
+    background-color: var(--blue-20);
     
 }

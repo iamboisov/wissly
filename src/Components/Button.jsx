@@ -1,3 +1,8 @@
 export default function Button(props) {
-    return <a className="NavButton">{props.title}</a>
+    switch (props.style) {
+        case "dark":
+            return <a className="NavButtonDark">{props.title}</a>
+        case "light":
+            return <a className="NavButtonLight">{props.title}</a>
+    }
 }

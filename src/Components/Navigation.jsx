@@ -23,6 +23,6 @@ export default function Navigation() {
         <a href="/ideas">Бизнес-идеи</a>
         <a href="/about">О нас</a>
     </div>
-    <Button title="Присоединиться" />
+    <Button title="Присоединиться" style="dark"/>
     </div>
 }
