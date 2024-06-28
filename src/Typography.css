@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import './Colors.css';
+
+:root {
+    /* --- Desktop --- */
+
+    /* Base header style */
+    --header-font-family: "Onest", sans-serif;
+    --header-font-weight: bold;
+    --header-font-size: 16px;
+    --header-color: var(--text-primary-100);
+    --header-margin: 0;
+    --header-line-height: 115%;
+
+    /* Main text */
+    --main-font-family: "Roboto Flex", sans-serif;
+    --main-font-weight: 400;
+    --main-font-size: 16px;
+    --main-color: var(--text-primary-100);
+    --main-margin: 0;
+    --main-line-height: 150%;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--header-font-family);
+    font-weight: var(--header-font-weight);
+    font-size: var(--header-font-size);
+    margin: var(--header-margin);
+    line-height: var(--header-line-height)
+  }
+
+h1 {
+    font-size: calc(var(--header-font-size) * 4);
+  }
+  
+h2 {
+    font-size: calc(var(--header-font-size) * 3.5);
+  }
+  
+h3 {
+    font-size: calc(var(--header-font-size) * 3);
+  }
+  
+h4 {
+    font-size: calc(var(--header-font-size) * 2.5);
+  }
+  
+h5 {
+    font-size: calc(var(--header-font-size) * 2);
+  }
+  
+h6 {
+    font-size: calc(var(--header-font-size) * 1.5);
+  }
+
+
+a {
+    text-decoration: none;
+    color: var(--text-primary-100)
+}
+
+a:hover {
+    background-color: var(--blue-100);
+}

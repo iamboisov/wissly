@@ -1,0 +1,16 @@
+@import '../Colors.css';
+
+.NavButton {
+    background-color: var(--main-primary-100);
+    color: white;
+    padding: 16px 24px;
+    border-radius: 64px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.NavButton:hover {
+    background-color: var(--main-primary-80);
+    
+}

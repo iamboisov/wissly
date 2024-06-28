@@ -1,6 +1,21 @@
+@import './Colors';
+@import './Typography';
+
 #root {
-  max-width: 1280px;
-  margin: 0;
-  padding: 2rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  /* padding: 2rem; */
   text-align: center;
+}
+
+body {
+  background-color: var(--text-primary-10);
+  color: var(--header-color);
+  font-family: var(--main-font-family);
+}
+
+h1 {
+  font-family: var(--header-font-family);
+  font-weight: var(--header-font-weight);
+  font-size: calc(var(--header-font-size) * 4);
 }

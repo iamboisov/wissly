@@ -1,0 +1,99 @@
+:root {
+    /* Primary */
+    --text-primary-100: #251D3A;
+    --text-primary-90: #37304C;
+    --text-primary-80: #4A445E;
+    --text-primary-70: #5E5971;
+    --text-primary-60: #736F84;
+    --text-primary-50: #898698;
+    --text-primary-40: #A09DAC;
+    --text-primary-30: #B7B4C0;
+    --text-primary-20: #CECDD5;
+    --text-primary-10: #E6E6EA;
+
+    /* Secondary */
+    --text-secondary-100: #0015D4;
+    --text-secondary-90: #0D3FDB;
+    --text-secondary-80: #275BE1;
+    --text-secondary-70: #4172E7;
+    --text-secondary-60: #5A88ED;
+    --text-secondary-50: #759DF1;
+    --text-secondary-40: #8FB1F6;
+    --text-secondary-30: #ABC5F9;
+    --text-secondary-20: #C6D8FC;
+    --text-secondary-10: #E2ECFE;
+
+    /* Main Primary */
+    --main-primary-100: #0F0A36;
+    --main-primary-90: #202049;
+    --main-primary-80: #34365C;
+    --main-primary-70: #4A4D6F;
+    --main-primary-60: #616483;
+    --main-primary-50: #797C97;
+    --main-primary-40: #9295AB;
+    --main-primary-30: #ACAFC0;
+    --main-primary-20: #C7C9D5;
+    --main-primary-10: #E3E4EA;
+
+    /* Main Secondary */
+    --main-secondary-100: #E04D01;
+    --main-secondary-90: #E66231;
+    --main-secondary-80: #EB764D;
+    --main-secondary-70: #F08864;
+    --main-secondary-60: #F49A7B;
+    --main-secondary-50: #F7AB91;
+    --main-secondary-40: #FABCA7;
+    --main-secondary-30: #FCCDBD;
+    --main-secondary-20: #FEDED3;
+    --main-secondary-10: #FFEEE9;
+
+    /* Gray */
+    --gray-100: #B5B7BD;
+    --gray-90: #BFC1C7;
+    --gray-80: #C5C7CC;
+    --gray-70: #CCCDD2;
+    --gray-60: #D2D3D8;
+    --gray-50: #D8D9DD;
+    --gray-40: #DFE0E3;
+    --gray-30: #E5E6E8;
+    --gray-20: #EBECEE;
+    --gray-10: #F2F2F4;
+
+    /* Blue */
+    --blue-100: #3100F5;
+    --blue-90: #393FF9;
+    --blue-80: #485DFC;
+    --blue-70: #5A75FF;
+    --blue-60: #6E8BFF;
+    --blue-50: #84A0FF;
+    --blue-40: #9BB3FF;
+    --blue-30: #B3C7FF;
+    --blue-20: #CCDAFF;
+    --blue-100: #E5ECFF;
+
+    /* Red */
+    --red-100: #D40000;
+    --red-100: #DC392C;
+    --red-100: #E35646;
+    --red-100: #EA6E5E;
+    --red-100: #EF8475;
+    --red-100: #F4998B;
+    --red-100: #F8AEA2;
+    --red-100: #FBC2B9;
+    --red-100: #FED7D0;
+    --red-100: #FFEBE7;
+
+
+    /* Green */
+    --green-100: #3EB407;
+    --green-90: #4DC416;
+    --green-80: #63CB41;
+    --green-70: #77D15C;
+    --green-60: #8AD773;
+    --green-50: #9BDE88;
+    --green-40: #ACE49D;
+    --green-30: #BDE9B1;
+    --green-20: #CEEFC5;
+    --green-10: #DEF4D8;
+
+}
