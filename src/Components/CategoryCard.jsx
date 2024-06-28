@@ -1,4 +1,3 @@
-import z_white from '../assets/z_white.png'
 import link_img from '../assets/link.png'
 
 export default function CategoryCard(props) {
@@ -69,3 +68,7 @@ export default function CategoryCard(props) {
             )
     }
 }
+
+
+
+// <CategoryCard variant={2} amount={12} title="Финансы" text="Статьи, которые помогут выстроить маркетинг"/>

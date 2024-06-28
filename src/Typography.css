@@ -59,7 +59,3 @@ a {
     text-decoration: none;
     color: var(--text-primary-100)
 }
-
-a:hover {
-    background-color: var(--blue-100);
-}
