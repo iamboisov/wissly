@@ -4,7 +4,7 @@ import CategoryCard from './Components/CategoryCard'
 import ArticleCard from './Components/ArticleCard'
 import Footer from './Components/Footer'
 import ipadCard from './assets/ipad.svg'
-import iphone_card from './assets/iphone1.svg'
+import iphone_card2 from './assets/iphone2.svg'
 import startup_card2 from './assets/wissly-startup2.svg'
 
 export default function Articles() {
@@ -57,7 +57,7 @@ export default function Articles() {
                 </div>
             </div>
             <div className="communication-img">
-                <img src={iphone_card} alt=""/>
+                <img src={iphone_card2} alt=""/>
             </div>
         </div>
 
