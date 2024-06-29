@@ -13,7 +13,7 @@ export default function Home() {
         <div className="divider"></div>
         <div className="main-header">
             <div className="main-header-content">
-                <p className='main-badge'>Нас уже больше 1 000 000 🎉</p>
+                <p className='main-badge'>Нас уже больше 10 000 🎉</p>
                 <h1>Читайте про бизнес и узнавайте новое</h1>
                 <p className='main-header-text'>Присоединяйтесь к 10 167 единомышленников и будьте курсе всех трендов в бизнесе</p>
             </div>
