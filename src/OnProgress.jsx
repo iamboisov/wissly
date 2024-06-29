@@ -3,14 +3,14 @@ import Footer from './Components/Footer'
 import AboutCard from './Components/AboutCard'
 
 
-export default function Error() {
+export default function OnProgress() {
     return (
         <>
         <Navigation />
         <div className="divider"></div>
         <div className="onprogress">
-            <h1>404</h1>
-            <h3>Упс..похоже мы не смогли найти страницу</h3>
+            <h1>;&#41;</h1>
+            <h3>Мы усердно работает над созданием этой страницы</h3>
         </div>
 
         <div className="bottom-container">

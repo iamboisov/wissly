@@ -1,0 +1,24 @@
+.onprogress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.onprogress > h1 {
+    font-size: 120px;
+    margin-bottom: 60px;
+}
+
+.onprogress > h3 {
+    max-width: 650px;
+    color: var(--text-primary-50)
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}

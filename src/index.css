@@ -7,3 +7,5 @@
 @import './Home';
 @import './Articles';
 @import './Startups';
+@import './OnProgress';
+@import './Components/AboutCard';
